@@ -1,0 +1,23 @@
+{
+  "name": "benmichcountdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benroot/time-to-mich.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benroot/time-to-mich/issues"
+  },
+  "homepage": "https://github.com/benroot/time-to-mich#readme"
+}
