@@ -1,5 +1,9 @@
-const backToMich = new Date(2020, 5, 30, 17).getTime();
-console.log(backToMich);
+var backToMichDate = new Date(2020, 6, 3, 17);
+var backToMichTime = backToMichDate.getTime();
+
+// const dateString = backToMich.toLocaleDateString();
+let dateSpan = document.getElementById('returnDate');
+dateSpan.innerHTML = backToMichDate.toLocaleDateString();
 
 // countdown
 let timer = setInterval(function () {
@@ -7,7 +11,7 @@ let timer = setInterval(function () {
   const today = new Date().getTime();
 
   // get the difference
-  const diff = backToMich - today;
+  const diff = backToMichTime - today;
 
   // math
   let days = Math.floor(diff / (1000 * 60 * 60 * 24));
